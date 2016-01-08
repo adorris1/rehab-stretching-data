@@ -14,7 +14,7 @@
         "name": "page",
         "params": {
           "resource": "404",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/404.md",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/404.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -38,7 +38,7 @@
         "name": "page",
         "params": {
           "resource": "500",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/500.md",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/500.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -66,7 +66,7 @@
         "name": "page",
         "params": {
           "resource": "home",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/home.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -94,7 +94,7 @@
         "name": "page",
         "params": {
           "resource": "about",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/about.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -122,7 +122,7 @@
         "name": "page",
         "params": {
           "resource": "contact",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.json",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/contact.json",
           "format": "json",
           "models": [
             "LocalBusiness",
