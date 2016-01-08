@@ -1,0 +1,177 @@
+{
+  "routes": {
+    "404": {
+      "path": "/404",
+      "method": "get",
+      "page": "404",
+      "label": "Not Found",
+      "component": "ContentPage",
+      "mainNav": false,
+      "background": "",
+      "order": 0,
+      "priority": 0,
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "404",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/404.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Page Not Found"
+        }
+      }
+    },
+    "500": {
+      "path": "/500",
+      "method": "get",
+      "page": "500",
+      "label": "Error",
+      "component": "ContentPage",
+      "mainNav": false,
+      "background": "",
+      "order": 0,
+      "priority": 0,
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "500",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/500.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Application Error"
+        }
+      }
+    },
+    "home": {
+      "path": "/",
+      "method": "get",
+      "page": "home",
+      "label": "Home",
+      "component": "ContentPage",
+      "mainNav": true,
+      "background": "3.jpg",
+      "order": 0,
+      "priority": 1,
+      "siteMeta": {
+        "priority": 1.0,
+        "changefreq": "daily"
+      },
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "home",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "An Example Isomorphic Application"
+        }
+      }
+    },
+    "about": {
+      "path": "/about",
+      "method": "get",
+      "page": "about",
+      "label": "About",
+      "component": "ContentPage",
+      "mainNav": true,
+      "background": "4.jpg",
+      "order": 1,
+      "priority": 1,
+      "siteMeta": {
+        "priority": 0.5,
+        "changefreq": "monthly"
+      },
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "about",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "About"
+        }
+      }
+    },
+    "contact": {
+      "path": "/contact",
+      "method": "get",
+      "page": "contact",
+      "label": "Contact",
+      "component": "Contact",
+      "mainNav": true,
+      "background": "5.jpg",
+      "order": 2,
+      "priority": 1,
+      "siteMeta": {
+        "priority": 0.8,
+        "changefreq": "weekly"
+      },
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "contact",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.json",
+          "format": "json",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Contact"
+        }
+      }
+    }
+  },
+  "models": {
+    "LocalBusiness": {
+      "legalName": "LocalNerve, LLC",
+      "alternateName": "LocalNerve",
+      "url": "http://localnerve.com",
+      "telephone": "207-370-8005",
+      "email": "alex@localnerve.com",
+      "address": {
+        "streetAddress": "PO BOX 95",
+        "addressRegion": "ME",
+        "addressLocality": "Windham",
+        "addressCountry": "USA",
+        "postalCode": "04062",
+        "postOfficeBoxNumber": "95"
+      }
+    },
+    "SiteInfo": {
+      "site": {
+        "name": "Contactor",
+        "tagLine": "A Fluxible, Reactive reference app with a good prognosis.",
+        "bullets": ["Fluxible", "React", "Data Driven"]
+      },
+      "license": {
+        "type": "BSD",
+        "url": "https://github.com/localnerve/flux-react-example/blob/master/LICENSE.md",
+        "statement": "All code licensed under LocalNerve BSD License."
+      },
+      "developer": {
+        "name": "LocalNerve",
+        "byLine": "Developed by LocalNerve",
+        "url": "http://localnerve.com"
+      },
+      "social": {
+        "github": "https://github.com/localnerve/flux-react-example",
+        "twitter": "https://twitter.com/localnerve",
+        "facebook": "https://facebook.com/localnerve",
+        "linkedin": "https://www.linkedin.com/in/alexpaulgrant",
+        "googleplus": "https://plus.google.com/118303375063449115817/"
+      }
+    }
+  }
+}
