@@ -1,0 +1,5 @@
+## Welcome To The Demo
+this is an attempt to modify visible text. love ashley 
+### Data Driven Flux & React
+All the content you see, including navigation, comes from a [backend data service](https://github.com/localnerve/flux-react-example-data).
+This application uses Facebook's [React](http://reactjs.com) and Yahoo's [Fluxible](http://fluxible.io).
