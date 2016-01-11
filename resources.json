@@ -151,9 +151,9 @@
     },
     "SiteInfo": {
       "site": {
-        "name": "Contactor",
-        "tagLine": "A Fluxible, Reactive reference app with a good prognosis.",
-        "bullets": ["Fluxible", "React", "Data Driven"]
+        "name": "REHAB GUIDE",
+        "tagLine": "Your Guide to Effective Exercise Rehabilitation and Stretching.",
+        "bullets": ["PICTURES", "INSTRUCTIONS", "PROGRESSIONS", "COMMON ERRORS"]
       },
       "license": {
         "type": "BSD",
