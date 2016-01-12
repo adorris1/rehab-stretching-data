@@ -104,6 +104,34 @@
         }
       }
     },
+    "faq": {
+      "path": "/faq",
+      "method": "get",
+      "page": "faq",
+      "label": "FAQ's",
+      "component": "ContentPage",
+      "mainNav": true,
+      "background": "5.jpg",
+      "order": 2,
+      "priority": 1,
+      "siteMeta": {
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "faq",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/faq.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "FAQ's"
+      }
+    }
+  },
     "contact": {
       "path": "/contact",
       "method": "get",
