@@ -108,7 +108,7 @@
       "path": "/contact",
       "method": "get",
       "page": "contact",
-      "label": "Contact",
+      "label": "Contents",
       "component": "Contact",
       "mainNav": true,
       "background": "5.jpg",
@@ -128,7 +128,7 @@
             "LocalBusiness",
             "SiteInfo"
           ],
-          "pageTitle": "Contact"
+          "pageTitle": "Table Of Contents"
         }
       }
     }
