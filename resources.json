@@ -115,7 +115,7 @@
       "order": 2,
       "priority": 1,
       "siteMeta": {
-        "priority": 0.8,
+        "priority": 0.7,
         "changefreq": "weekly"
       },
       "action": {
@@ -129,7 +129,6 @@
             "SiteInfo"
           ],
           "pageTitle": "FAQ's"
-        }
       }
     }
   },
@@ -162,7 +161,6 @@
       }
     }
   },
-
   "models": {
     "LocalBusiness": {
       "legalName": "LocalNerve, LLC",
