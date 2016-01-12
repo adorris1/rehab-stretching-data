@@ -1,7 +1,7 @@
 {
   "contact": {
-    "name": "Table of Contents",
-    "headingText": "Visual Table of Contents",
+    "name": "FAQ's",
+    "headingText": "Facts and Questions",
     "stepFinal": 3,
     "resultMessageFail": "Message Not Sent, click to Retry.",
     "resultMessageSuccess": "Message Sent Successfully",

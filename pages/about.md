@@ -1,4 +1,4 @@
-  Note from the Authors
+  ## Note from the Authors
   
   Can you think of anything more important than the health of yourself and those you care about?  Your physical health impacts your quality of life and happiness.  With good health, you build a stronger you with more positive energy to bring to your relationships and community.  Being free from aches and pains isn’t a requirement for enjoying life, but it does make enjoying life a whole lot easier.
   
