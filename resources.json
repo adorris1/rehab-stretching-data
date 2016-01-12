@@ -104,6 +104,35 @@
         }
       }
     },
+    "FAQ": {
+      "path": "/faq",
+      "method": "get",
+      "page": "faq",
+      "label": "FAQ's",
+      "component": "ContentPage",
+      "mainNav": true,
+      "background": "5.jpg",
+      "order": 2,
+      "priority": 1,
+      "siteMeta": {
+        "priority": 0.8,
+        "changefreq": "weekly"
+      },
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "contact",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/faq.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "FAQ's"
+        }
+      }
+    }
+  },
     "contact": {
       "path": "/contact",
       "method": "get",
@@ -112,7 +141,7 @@
       "component": "Contact",
       "mainNav": true,
       "background": "5.jpg",
-      "order": 2,
+      "order": 3,
       "priority": 1,
       "siteMeta": {
         "priority": 0.8,
@@ -128,11 +157,12 @@
             "LocalBusiness",
             "SiteInfo"
           ],
-          "pageTitle": "Table Of Contents"
+          "pageTitle": "Contents"
         }
       }
     }
   },
+
   "models": {
     "LocalBusiness": {
       "legalName": "LocalNerve, LLC",
