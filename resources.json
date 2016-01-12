@@ -105,11 +105,11 @@
       }
     },
     "contact": {
-      "path": "/contents",
+      "path": "/contact",
       "method": "get",
-      "page": "contents",
-      "label": "Contents",
-      "component": "Contents",
+      "page": "contact",
+      "label": "Contact",
+      "component": "Contact",
       "mainNav": true,
       "background": "5.jpg",
       "order": 2,
@@ -122,13 +122,13 @@
         "name": "page",
         "params": {
           "resource": "contact",
-          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/contents.json",
+          "url": "https://api.github.com/repos/adorris1/rehab-stretching-data/contents/pages/contact.json",
           "format": "json",
           "models": [
             "LocalBusiness",
             "SiteInfo"
           ],
-          "pageTitle": "contents"
+          "pageTitle": "Contact"
         }
       }
     }
